@@ -2,15 +2,40 @@
   .top-nav {
     margin-left: 45%;
   }
- .icon-img{
-    width: 40%;
-    height: 20%;
+
+  .about-us{
+    height: 100%;
+    margin-bottom: 7%;
+  }
+
+  .about-us > img {
+    height: 40%;
+    width: 80%;
   }
 }
+ 
+@media only screen and (max-width: 900px) {
+  .large-img {
+    margin: 0;
+  } 
+  
+  .about-us {
+    height: 80%;
+  }
 
-.top-nav {
-  font-weight: 700;
+  .about-us > img {
+    height: 40%;
+    width: 80%;
+  }
+   form {
+     width: 100%;
+   }
+
+   .top-margin{
+    margin-top: 4%;
+   }
 }
+
 
 h1 {
   font-family: 'Bebas Neue', cursive;
@@ -27,7 +52,6 @@ h1 {
 .price-tag {
   font-weight: 600;
   font-size: 40px;
-  margin-right: 27%;
 }
 
  i {
@@ -36,6 +60,7 @@ h1 {
 
 .my-button {
   padding: 10px 24px;
+  margin-left: 28%;
 }
 
 .text-section {
@@ -47,15 +72,15 @@ h1 {
 }
 
 .card > img {
-  height: 50%;
+  height: 380px;
   background-color: rgba(211, 211, 211, 0.233);
   border-radius: 7%;
 }
 
 .icon-img {
-  width: 60%;
-  height: 80%;
-  margin: 8%;
+  width: 50%;
+  height: 60%;
+  margin: 15%;
 }
 
 .card {
@@ -64,7 +89,5 @@ h1 {
   border-radius: 5%;
 }
 
-.about-us {
-  height: 600px;
-}
+
 
